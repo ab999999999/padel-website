@@ -1,0 +1,64 @@
+git clone https://github.com/yourusername/padel-website.git
+cd padel-website
+echo "<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Padel: Principles and Strategies</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #333; color: #fff; padding-top: 30px; min-height: 70px; border-bottom: #77aaff 3px solid; }
+        header a { color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
+        header ul { padding: 0; list-style: none; }
+        header li { float: left; display: inline; padding: 0 20px 0 20px; }
+        .main { padding: 20px; background: #fff; }
+        .section { padding: 20px 0; }
+        .section h2 { border-bottom: #77aaff 3px solid; padding-bottom: 10px; }
+        footer { background: #333; color: #fff; text-align: center; padding: 20px 0; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class='container'>
+            <h1>Padel: Principles and Strategies</h1>
+        </div>
+    </header>
+    <div class='container main'>
+        <div class='section'>
+            <h2>Introduction to Padel</h2>
+            <p>Padel is a racket sport that combines elements of tennis and squash. It is played in doubles on an enclosed court about half the size of a tennis court. The game is quick and dynamic, making it a popular choice for players of all ages and skill levels.</p>
+        </div>
+        <div class='section'>
+            <h2>Basic Principles</h2>
+            <ul>
+                <li><strong>Serve:</strong> The serve is underhand, and the ball must bounce once in the server's box before being hit.</li>
+                <li><strong>Scoring:</strong> The scoring system is the same as in tennis, with points counting as 15, 30, 40, and game.</li>
+                <li><strong>Walls:</strong> Players can use the walls surrounding the court to their advantage, allowing for unique angles and shots.</li>
+                <li><strong>Equipment:</strong> Padel rackets are solid and perforated, and the balls are similar to tennis balls but with less pressure.</li>
+            </ul>
+        </div>
+        <div class='section'>
+            <h2>Key Strategies</h2>
+            <ul>
+                <li><strong>Positioning:</strong> Stay close to the net to control the game and put pressure on your opponents.</li>
+                <li><strong>Communication:</strong> Constant communication with your partner is essential to coordinate movements and cover the court effectively.</li>
+                <li><strong>Defensive Play:</strong> Use lobs to push opponents back and gain time to reposition.</li>
+                <li><strong>Offensive Play:</strong> Aim for the corners and use angles to make it difficult for opponents to return the ball.</li>
+                <li><strong>Serve and Volley:</strong> Follow your serve to the net to immediately apply pressure on the returner.</li>
+            </ul>
+        </div>
+        <div class='section'>
+            <h2>Conclusion</h2>
+            <p>Padel is a fun and engaging sport that requires strategy, communication, and skill. Whether you're a beginner or an experienced player, understanding the basic principles and key strategies can help you improve your game and enjoy it even more.</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Padel Principles and Strategies. All rights reserved.</p>
+    </footer>
+</body>
+</html>" > index.html
+git add index.html
+git commit -m "Add padel website HTML"
+git push origin main
